@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background: rgb(7, 226, 36);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+section{
+    background: white;
+    height: 60px;
+    width: 50px;
+    transition: all 5s;
+
+ 
+}
+section:hover{
+    background: rgb(64, 5, 226);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    rotate: 100deg;
+}

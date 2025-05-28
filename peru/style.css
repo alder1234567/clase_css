@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* Bandera de Perú */
+.bandera_de_peru {
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
+
+.bandera_de_peru article:nth-child(1) {
+    width: 200px;
+    height: 400px;
+    background-color: #D91023;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bandera_de_peru article:nth-child(2) {
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.bandera_de_peru article:nth-child(3) {
+    width: 200px;
+    height: 400px;
+    background-color: #D91023;
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+/* Bandera de Chile */
+.bandera_de_chile {
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
+
+.bandera_de_chile article:nth-child(1) {
+    width: 200px;
+    height: 200px;
+    background-color: #0039A6;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bandera_de_chile article:nth-child(2) {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.bandera_de_chile article:nth-child(3) {
+    width: 600px;
+    height: 200px;
+    background-color: #D52B1E;
+    position: absolute;
+    top: 200px;
+    left: 0;
+}

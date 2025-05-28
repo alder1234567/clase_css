@@ -1,0 +1,19 @@
+header{
+    height: 40px;
+    background: greenyellow;
+    margin: 0px 0px 4px;
+}
+
+nav{
+    height: 40px;
+    
+}
+.primer_nav{
+    background: blueviolet;
+    margin: 0px 0px 4px;
+
+}
+.segundo_nav{
+    background: blue;
+
+}

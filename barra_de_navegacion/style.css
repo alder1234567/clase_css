@@ -1,0 +1,50 @@
+/* Base Styles & Page Body */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #0ae0d6; 
+    padding-top: 20px; 
+}
+
+
+.navbar {
+    background-color: #ffffff; 
+    padding: 15px 30px;
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0 20px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+.navbar-brand {
+    font-size: 1.2em; 
+    font-weight: bold;
+    color: #333; 
+}
+.navbar-links {
+    list-style: none; 
+    display: flex; 
+}
+.navbar-links li {
+    margin-left: 20px; 
+}
+.navbar-links li:first-child {
+    margin-left: 0;
+}
+.navbar-links a {
+    text-decoration: none; 
+    color: #310eaf; 
+    font-size: 1em; 
+}
+.navbar-links a:hover {
+    color: #12dfc3; 
+}
